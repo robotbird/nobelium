@@ -18,7 +18,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/PMAndog',
+  socialLink: 'https://twitter.com/PMAndDog',
   seo: {
     keywords: ['机器鸟', '产品经理', '产品哲学'],
     googleSiteVerification: '机器鸟的个人博客，希望在这个世界可以留下自己的作品' // Remove the value or replace it with your own google site verification code
