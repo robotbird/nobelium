@@ -17,6 +17,15 @@ const Footer = ({ fullWidth }) => {
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+
+       <a 
+          target='_blank'
+           rel='noopener noreferrer'
+          href='https://beian.miit.gov.cn/'
+        >
+          浙ICP备2020035677号-2
+        </a> 
+
           </p>
           <Vercel />
         </div>
