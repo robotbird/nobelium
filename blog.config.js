@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '小石头2',
+  title: '机器鸟',
   author: 'robotbird',
   email: 'robotbird@qq.com',
   link: 'https://jqpress.com',
