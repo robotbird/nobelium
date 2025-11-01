@@ -18,6 +18,18 @@ class MyDocument extends Document {
     return (
       <Html lang={config.lang} className={cn(initialColorScheme)}>
         <Head>
+          {/* Google tag (gtag.js) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0JMV7HRJN"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-C0JMV7HRJN');
+              `
+            }}
+          />
           {config.font && config.font === 'serif'
             ? (
             <>
